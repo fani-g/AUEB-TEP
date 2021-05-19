@@ -1,0 +1,89 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid
+{
+    width: 50%;
+    margin: 10px auto;
+    background-color: cornflowerblue;
+    padding: 20px 0;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    min-height: 370px;
+    background-color: #fff;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.row
+{
+    padding-top: 15px;
+}
+
+.container>.row:first-child
+{
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.container input[type="email"], .container input[type="password"]
+{
+    width: 70%;
+    height: 40px;
+    background-color: #faf4f4;
+    border-radius: 5px;
+    border-width: 0px;
+    padding-left: 10px;
+
+}
+
+.container button[type="submit"]
+{
+    width: 90%;
+    height: 40px;
+    background-color: cornflowerblue;
+    border-radius: 2px;
+    border-width: 0px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+
+}
+
+.container>.row:last-child
+{
+    padding-top: 25px;
+    
+}
+
+.container-fluid> .row:last-child
+{
+    padding-top: 25px;
+    text-align: center;
+    color: white;
+}
+
+.container-fluid> .row:last-child a
+{
+    color: inherit;
+}
+
+.text-grey
+{
+    color: #8c8d8d;
+}
+
+.lost-pass
+{
+    text-decoration: none;
+    color: #8c8d8d;
+}
